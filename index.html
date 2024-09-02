@@ -1,0 +1,359 @@
+<!doctype html>
+
+
+<html lang="pt">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        body{
+    
+            background-color: #91f8ab;
+        }
+    
+    
+    
+    </style>
+    <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg bg-body-tertiary" style="z-index: 999;">
+        <div class="container-fluid col 11 m-auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Inicio</a>
+          <a href="#"></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profissionais</a>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br><br><br>
+
+      <div class="text-center">
+        <img src="./fotos/LOG.png" class="rounded" alt="...">
+      </div>
+      <div class="col-11 m-auto">
+        <h2 class="text-center">Porque é bom te ver sem dor. </h2>>
+
+      </div>
+
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./fotos/estress1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fotos/relax.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fotos/bambu 2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-2 g-4 col-11 m-auto">
+        <div class="col">
+          <div class="card">
+            <img src="./fotos/BAM 1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Massagem com Bambuteria</h5>
+              <p class="card-text">Recomendado também para quem trabalha por horas na mesma posição, como em escritórios por exemplo. Excelente para tirar tensão dos músculos e relaxamento das costas.</p>
+            </div>
+
+       
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Valores
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Valores</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         R$100,00 a cada sessão. 
+         Tempo em média de 45 minutos. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./fotos/EST 2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Massagem Anti-Stress</h5>
+              <p class="card-text">Ideal para quem trabalha em ambientes de elevado stress e cobranças, onde estão atrelados a postura incorreta do dia a dia.</p>
+            </div>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Valores
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Valores</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            R$80,00 a cada sessão. 
+            Tempo em média de 50 minutos. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./fotos/MOD 3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Massagem Modeladora</h5>
+              <p class="card-text">Para aqueles que queiram perder aquela gordurinha localizada indesejada sem necessidade de academias ou esforços fisicos.</p>
+            </div>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Valores 
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            R$150,00 a cada sessão. 
+            Tempo em média de 60 minutos. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <br>
+      <br>
+      <br><br>
+      <br>
+      <br>
+
+
+
+<div class="col-11 m-auto">
+    <h2 class="text-center">Sobre a Empresa</h2>
+    <p class="text-center">O Grupo Belleza Spa fundado pela Dra. Ana Maria há 15 anos, se tornou referência em cuidados estéticos, dermatológicos e de bem-estar na região de Chapecó. Por trazer excelência nos protocolos personalizados, expertise dos nossos especialistas que se uniram às mais avançadas tecnologias. 
+
+                Além de resultados estéticos únicos, você desfruta de uma experiência extremamente agradável, tudo pensado para que você se sinta bem e eleve a sua autoestima. O Grupo Belleza Spa hoje conta com 01 unidade.</p>
+        
+        </div>
+
+
+    <div class="col-11 m-auto">
+        <h2 class="text-center">Contato</h2>
+            <p class="text-center"> </p>(49)98883-3639</p>
+            
+                <i class="fa-brands fa-whatsapp" style="font-size: 50px; color: green;"></i>
+             
+    <div>
+      
+
+    <div class="col-11 m-auto">
+                <h2 class="text-center">Profissionais</h2>
+
+                <div class="card-group">
+                    <div class="card">
+                      <img src="./fotos/Imagem3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Maria da Silva</h5>
+                        <p class="card-text">Atua a mais de 18 anos no ramo de massagista, com diversos certificados em escolas renomadas no pais.  Como La’Meffe, Abrath, Inbes. 
+                            Massagem modeladora. 
+                            Massagem com bambuteria.</p>
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="./fotos/Imagem4.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">João dos Santos</h5>
+                        <p class="card-text">Possui vasta experiência no ramo, também com diversos certificados e especializações em massagens e beleza. Como Abrath e Senac. Atualmente da aulas para um grupo de 20 alunos na região, que gostariam de aprender e aperfeiçoar suas habilidades.  
+
+                            Massagem Anti Stress.</p>
+                        
+                      </div>
+                    </div>
+
+        
+
+        </div>
+        <div>
+            <div class="col-11 m-auto">
+                <h2 class="text-center">Depoimentos de clientes</h2>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Sergio Figueiredo - 05/11/2023
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Bambuterapia.</strong> Tinha muitas dores nas costas, e foi uma das melhores coisas que poderia ter feito, em procurar a Belleza Spa. Trabalho como mototrista e possuia muidas dores nas costas. Após as seções de massagem melhorou e muito meu dia a dia. Hoje vou a clinica a cada 15 dias e recomendo. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Maria Terezinha - 22/06/2015
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Massagem Modeladora.</strong> Fiz minha terceira sessão de Massagem modeladora com a Dra. Maria da Silva e estou amando. Essa massagem é milagrosa rsrs. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Janaina Golçalves - 12/03/2022
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Massagem Anti-Stress</strong> Atualmente vou a clínica  a cada 10 dias para realizar a massagem Anti Stress e não consigo ficar sem. Devido a rotina intensa no dia a dia no trabalho. Excelente. Recomendo muito.  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+        </div>
+
+         
+    </div>
+            <div class="col-11 m-auto">
+                <h2 class="text-center">Missão</h2>
+                <p class="text-center"> </p>Gerar serviços que promovam o bem estar e a melhoria da qualidade de vida do nosso cliente. </p>
+
+            <div class="col-11 m-auto">
+                <h2 class="text-center">Visão</h2>
+                <p class="text-center"> </p>Ser uma referencia reconhecida pelo mercado em excelência e qualidade.  </p>
+                
+            <div class="col-11 m-auto">
+            <h2 class="text-center">Valores</h2>
+            <p class="text-center"> </p>Excelência com simplicidade, Comprometimento, Honestidade e Respeito.  </p>
+
+        </div>
+
+
+    
+      
+      <br>
+      <br>
+      <br>
+      <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 12;
+            padding: 50;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            min-height: 90vh;
+            padding: 80px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #f5f5f5;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: green;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <footer>
+        <p>&copy; 2024. Todos os direitos reservados. | <a href="#">Política de Privacidade</a></p>
+        <p> Estética de Beleza e Saúde Chapecó / Rua: Nereu Ramos, 729, Centro, Chapecó, SC -  89801-021.</p>
+    </footer>
+
+</body>
+</html>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </body>
+</html>
